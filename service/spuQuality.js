@@ -51,7 +51,7 @@ const getAllSpuQuality = async() => {
             const pqs = await getSpuQuality(spu);
             result = result.concat(pqs);
             console.info('=========================================');
-            break;
+            // break;
         }
         return result;
     } catch (e) {

@@ -149,10 +149,10 @@ const getAllSpuDetail = async() => {
             // 服务
             const serverInfo = await getServerInfo(item);
             serverInfoList = serverInfoList.concat(serverInfo);
-
-            if(number === 3){
-                break;
-            }
+            // 测试使用
+            // if(number === 3){
+            //     break;
+            // }
         }
         return {skuList, serverInfoList, baseInfoList}
     } catch (e) {
